@@ -1,8 +1,20 @@
 body{
 
   background-color: white;
+  background-image: url("https://orig00.deviantart.net/3424/f/2018/286/8/9/untitled_drawing_by_bekycrystal-dcpd5g2.png");");
 
-  /* background-image: url("background.jpg"); */
+  /* background-image: url("https://orig00.deviantart.net/c8ea/f/2018/286/2/4/untitled_drawing_by_bekycrystal-dcpd5g2.png"); */
+}
+
+background-image{
+  /* min-width: 500px;
+  max-width: 1000px;
+  min-height: 500px;
+  max-height: 1000px; */
+  width: 1000px;
+  height: 1000px;
+  opacity: .2;
+  filter: alpha(opacity=50);
 }
 
 img{
@@ -30,13 +42,16 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-   position: fixed;
-    top: 0;
-    width: 100%;
+  overflow: hidden;
+   border-right: 1px solid #bbb;
+  position: fixed;
+      top: 0;
+      width: 100%;
 }
 ul li{
 float: left;
-width: 260px;
+/* float: right; */
+width: 245px;
 height:40px;
 background-color: red;
 color: white;
@@ -44,7 +59,7 @@ opacity: .7;
 line-height: 40px;
 text-align: center;
 font-size: 30px;
-margin-right: 3px;
+/* margin: 0; */
 }
 /* HOw it looks */
 ul li a{
@@ -92,8 +107,8 @@ h2{
   }
 
 h3{
-  font-size: 27px;
-  color: black;
+  font-size: 28px;
+  color: white;
   margin-right: auto;
   text-align: center;
   margin-right: auto;
